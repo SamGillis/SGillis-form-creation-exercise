@@ -1,5 +1,5 @@
 # SGillis-form-creation-exercise
-form-creation-exercise project submission for Samantha Gillis. Thank you for taking a look! 
+form-creation-exercise project submission for Samantha Gillis. The repo for this demo project can be found [on my personal Github](https://github.com/SamGillis/SGillis-form-creation-exercise). Thank you for taking a look! 
 
 ## Running the form
 
