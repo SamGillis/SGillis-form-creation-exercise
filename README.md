@@ -1,5 +1,5 @@
 # SGillis-form-creation-exercise
-ActBlue form-creation-exercise project submission for Samantha Gillis. Thank you for taking a look! 
+form-creation-exercise project submission for Samantha Gillis. Thank you for taking a look! 
 
 ## Running the form
 
@@ -11,6 +11,11 @@ After cloning this repository to your local machine, and in the project director
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Using the form
+When submitted, the form will print to console the form data object, allowing the user to see any submissions. While I didn't implement input validation, this would definitely be a place to expand. 
+
+The nav links are accessable and will change the displayed form to coordinate with the selected band. 
 
 ## Dependencies Used
 
