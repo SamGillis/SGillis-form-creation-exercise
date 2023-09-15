@@ -5,7 +5,7 @@ form-creation-exercise project submission for Samantha Gillis. The repo for this
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-After cloning this repository to your local machine, and in the project directory running `npm install`, the following standard script is available: 
+After cloning this repository to your local machine, navigating to the /form-creation-exercise folder, and in the project directory running `npm install`, the following standard script is available: 
 
 ### `npm start`
 

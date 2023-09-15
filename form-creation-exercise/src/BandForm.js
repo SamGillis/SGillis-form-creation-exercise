@@ -26,6 +26,12 @@ function BandForm({ band }) {
     setTotal(tmpTotal / 100);
   };
 
+  const handleFormReset = () => {
+    Array.from(document.querySelectorAll("input")).forEach(
+      input => (input.value = "")
+    );
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target),
@@ -34,6 +40,10 @@ function BandForm({ band }) {
   };
 
   useEffect(() => calculateTotal(), [ticketTotals]);
+  useEffect(() => {
+    setTicketTotals(mapTickets(band.ticketTypes));
+    handleFormReset()
+  }, [band]);
 
   const handleChange = (event) => {
     var ticketType = event.target.name;
